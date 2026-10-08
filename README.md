@@ -1,7 +1,8 @@
 <h1 align="center">Hi, I'm Fahtur 👋</h1>
 
 <p align="center">
-  <b>Backend engineer in Jakarta</b> building reliable payment and API backends in Java.
+  <b>Backend engineer in Jakarta</b> building reliable payment and API backends in Java,<br>
+  and shipping full-stack web apps with Nuxt and TypeScript.
 </p>
 
 <p align="center">
@@ -11,6 +12,8 @@
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white" alt="Nuxt" />
 </p>
 
 ---
@@ -20,8 +23,9 @@
 - 4 years building backend systems, mostly in **banking and fintech**
 - I care about the unglamorous parts that break in production: **duplicate charges, forged or replayed webhooks, out-of-order events, flaky third-party APIs**
 - Comfortable with **Spring Boot** and **Quarkus**, REST API design, and shipping with Docker and CI
+- Also build the frontend when a project needs it: **Nuxt / Vue** with **TypeScript**
 
-## Featured project
+## Featured projects
 
 ### 💳 [payment-gateway-integration](https://github.com/fahturr/payment-gateway-integration)
 
@@ -33,6 +37,17 @@ A Spring Boot service for Midtrans payments, built to survive real-world failure
 - **Retry with exponential backoff** for provider calls, plus a **reconciliation job** for missed notifications
 
 `Java 21` · `Spring Boot 3` · `PostgreSQL` · `Flyway` · `Docker Compose` · `GitHub Actions`
+
+### 🚆 [peron](https://github.com/fahturr/peron)
+
+A responsive web app for live departures on Jakarta's KRL Commuter Line:
+
+- **Departure boards** with live countdowns and line/destination filters, plus a train view showing where each train is on its route
+- **Hand-built SVG transit map** of the network, including the Cikarang loop, with clickable stations
+- **Partner API client** behind a server API layer, with caching and a clearly labelled simulated timetable when no API is configured
+- **Light/dark/system themes**, favourite stations, and a mobile-first layout
+
+`Nuxt 4` · `Vue 3` · `TypeScript` · `Nitro` · `SVG`
 
 ## More projects
 
@@ -49,6 +64,7 @@ Freelance and contract backend work:
 - Payment gateway and third-party API integrations
 - REST APIs with Spring Boot or Quarkus
 - Reliability work: idempotency, retries, webhook handling, reconciliation
+- Full-stack web apps with Nuxt / Vue and TypeScript
 
 ## Get in touch
 
